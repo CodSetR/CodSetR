@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning mechanical engineering
 - 💞️ I’m looking to collaborate on coding and study projects
 - 📫 How to reach me here and my email
-- 😄 Pronouns: he
+- 😄 Pronouns: he/him
 - ⚡ Fun fact: i love math!
 
 <!---
