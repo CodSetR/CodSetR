@@ -1,0 +1,40 @@
+"""class Solution:
+    def findWords(self, words: List[str]) -> List[str]:
+        f = ["q","w","e","r","t","y","u","i","o","p"]
+        s = ["a","s","d","f","g","h","j","k","l",]
+        t = ["z","x","c","v","b","n","m"]
+        r = []
+#Burada harfler ve sonuç listesi olşturulmuştur.
+        for i in words :
+            c1 = 0
+            c2 = 0
+            c3 = 0
+            w = i
+            b = 0
+#Burada c'ler harfleri kontrol ederler, w kelime ve b ise satıra uygunluk kontrolüdür.
+            for l in w.lower() :
+                b += 1
+                if l in f :
+                    c1 += 1
+                if l in s :
+                    c2 += 1
+                if l in t :
+                    c3 += 1
+#Harflere göre kontroller yapılır eğer kelime sadece tek bir satırla ile yazılabilirse c kontrollerinden biri b'ye eşit olmalıdır.
+            if b == (c1 or c2 or c3) :
+                r.append(w)
+        return r"""
+#Bütün harfleri aynı sırada alan kelimeler.
+"""class Solution:
+    def peakIndexInMountainArray(self, arr: List[int]) -> int:
+        s=0
+#s burada tepe noktasını bulunduracak elemandır. Liste içinde 0. indisten başlayarak buluncaya kadar artacak.
+        while len(arr)>=0:
+#Burada while liste içinde arayışı hareketi geçirecek.
+             if arr[s]<arr[s+1]:
+                s+=1
+                continue
+             else:
+                return s 
+#Burada uygun koşulları altında liste içinde arayıp aramayacağına karar verir."""
+#Listede zirve yapan elementin indisini bulmak
