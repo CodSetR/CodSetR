@@ -37,4 +37,19 @@
              else:
                 return s 
 #Burada uygun koşulları altında liste içinde arayıp aramayacağına karar verir."""
-#Listede zirve yapan elementin indisini bulmak
+#Listede zirve yapan elementin indisini bulmak.
+"""class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        ok = 0
+        n = nums
+        for i in n :
+            t = i
+            c = 0
+            for k in n :
+                if k == t :
+                    c += 1
+            if c >= 2 :
+                return True
+        if c <= 2 :
+            return False
+"""
